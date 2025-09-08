@@ -527,7 +527,7 @@
                     <param name="control">image</param>
                     <aspectratio scalediffuse="false">$PARAM[aspectratio]</aspectratio>
                     <fadetime>$PARAM[fadetime]</fadetime>
-                    <texture diffuse="$PARAM[diffuse]">$PARAM[icon]</texture>
+                    <texture background="true" diffuse="$PARAM[diffuse]">$PARAM[icon]</texture>
                     <visible>$PARAM[icon_visible]</visible>
                 </include>
                 <include content="Object_Control" condition="$EXP[Exp_SkinSetting_GlassBorderOutline]">

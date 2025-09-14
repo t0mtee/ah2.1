@@ -30,7 +30,7 @@
 
     <include name="Dialog_Context_Image">
         <param name="right" default="context_icon_w" />
-        <param name="icon" default="$VAR[Image_ContextPoster]" />
+        <param name="icon" default="$VAR[Image_Poster]" />
         <param name="height">100%</param>
         <definition>
             <control type="group">

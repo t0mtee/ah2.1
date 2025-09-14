@@ -28,7 +28,7 @@
                     <visible>$EXP[Exp_ContextMenu_HasQuickNav]</visible>
                     <include content="Dialog_Background">
                         <param name="overlay" value="true" />
-                        <param name="overlay_texture" value="$VAR[Image_ContextFanart]" />
+                        <param name="overlay_texture" value="$VAR[Image_Background_Fanart]" />
                         <include content="Dialog_Context_Image">
                             <param name="diffuse" value="diffuse/poster_w435_h640.png" />
                             <visible>$EXP[Exp_ContextMenu_HasPoster]</visible>
